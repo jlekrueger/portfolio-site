@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+* {
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+
+h4, a {
+  font-size: 24px;
+}
+
+h5, p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/***GRID***/
+.full-width {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***HEADER***/
+header {
+  height: 700px;
+  background: url('../img/desktop-hero.jpg');
+  background-size: cover;
+}
+
+header h2 {
+  color: #564154;
+  font-size: 45px;
+  text-align: center;
+  padding: 275px 180px 0 180px;
+  font-family: 'Amatic SC';
+}
+
+header h2 span {
+  font-size: 80px;
+}
+
+/***PORTFOLIO***/
+#work {
+  height: 1450px;
+  background: #bee3db;
+  color: #564154;
+}
+
+#work h3 {
+  padding: 50px 0 80px 0;
+}
+
+#work h4 {
+  padding-top: 26px;
+}
+
+#work p {
+  padding: 30px 0 250px;
+}
+
+.site-image {
+  height: 350px;
+  width: 550px;
+  overflow: scroll;
+  margin: 26px 0;
+  border: solid 12px #a5cc6b;
+}
+
+/***ABOUT***/
+#about {
+  height: 650px;
+  background: #70c1b3;
+  color: #564154;
+}
+
+#about h3 {
+  padding: 50px 0 100px 0;
+}
+
+#about img {
+  width: 550px;
+  border: 12px solid #a5cc6b;
+}
+
+#about p {
+  padding-top: 20px;
+}
+
+/***CONTACT***/
+#contact{
+  height: 400px;
+  background: #564154;
+  text-align: center;
+}
+
+#contact h3 {
+  color: white;
+  padding: 50px 0 100px 0;
+}
+
+#contact h4 {
+  color: #89b0ae;
+}
+
+#contact p {
+  color: white;
+  padding-top: 20px;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact i {
+  padding: 20px 10px 0 10px;
+  font-size: 40px;
+}
+
+#contact h6 {
+  font-size: 12px;
+  margin-top: 175px;
+  color: black;
+}
